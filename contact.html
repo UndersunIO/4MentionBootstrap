@@ -18,131 +18,61 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">A propos</a>
+              <a class="nav-link" href="about.html">A propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">xxxx</a>
+              <a class="nav-link" href="blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">contact</a>
+              <a class="nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
     </nav>
       
-      <header class="jumbotron">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <h1 class="display-3">Bienvenue à l'AxePiction</h1>
-              <h2 class="lead">Lorem odio et placlorem60 Lore voluptates dolore velit quisquam eligendi officia est dignissimos, quae praesentium hic? Consequuntur, esse. Dolor laudantium fugiat dolorum soluta recusandae incidunt numquam voluptatum, alias labore? Nulla odio totam placeat in rem pariatur ex hic optio saepe. Eaque, minus? Facilis natus commodi animi minima iure, illo et?</h2>
-            </div>
-            <div class="col-12 col-sm-6 ">
-              <img class="img-fluid img-thumbnail " src="img/aa.jpeg" alt="" width="600">
-            </div>
-            <hr class="my-5">
+      <header class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-3 text-center">Contact</h1>
           </div>
-        </div>
       </header>
   
-  <main>
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4">Pricing</h1>
-      <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
-    </div>
-  
-    <div class="container">
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Free</h4>
+  <main class="container container-blog">
+    <div class="row row-content">
+      <div class="col-12 col-sm-6">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput1">Email: <label>
+            <input type="email" class="form-control" id="formGroupExampleInput1" placeholder="Email">
           </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title"><i class="fa fa-flask" aria-hidden="true"></i></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Nom: <label>
+            <input type="text-area" class="form-control" id="formGroupExampleInput2" placeholder="Nom">
           </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Pro</h4>
+
+          <div class="form-group">
+            <label for="formGroupExampleInput3"> Objet: <label>
+            <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Objet">
           </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+          
+          <div class="form-group">
+            <label for="exampleTextarea">Message: </label>
+            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
           </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Enterprise</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
-          </div>
-        </div>
+
+          <div class="form-group">
+            <input type="submit" class="form-control btn-danger">
+          </div> 
+        </form>
       </div>
-  
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-          <div class="col-12 col-md">
-            <img class="mb-2" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-            <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Features</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Cool stuff</a></li>
-              <li><a class="text-muted" href="#">Random feature</a></li>
-              <li><a class="text-muted" href="#">Team feature</a></li>
-              <li><a class="text-muted" href="#">Stuff for developers</a></li>
-              <li><a class="text-muted" href="#">Another one</a></li>
-              <li><a class="text-muted" href="#">Last time</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Resource</a></li>
-              <li><a class="text-muted" href="#">Resource name</a></li>
-              <li><a class="text-muted" href="#">Another resource</a></li>
-              <li><a class="text-muted" href="#">Final resource</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
-              <li><a class="text-muted" href="#">Privacy</a></li>
-              <li><a class="text-muted" href="#">Terms</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+      <div class="col-12 col-sm-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178790.95603753292!2d-73.87038579237922!3d45.558196845664966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2zTW9udHLDqWFsLCBRQywgQ2FuYWRh!5e0!3m2!1sfr!2sfr!4v1620485356530!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </div>
-  
   </main>
   
     <footer class="footer">
